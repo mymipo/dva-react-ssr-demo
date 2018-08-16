@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-.history
 
 # production
 /dist
@@ -10,3 +9,4 @@
 # misc
 .DS_Store
 npm-debug.log*
+.history
