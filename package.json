@@ -2,13 +2,14 @@
   "private": true,
   "scripts": {
     "start": "roadhog server",
-    "build": "NODE_SSR=true roadhog build",
+    "build": "cross-env NODE_SSR=true roadhog build",
     "server": "node server/index.js",
     "lint": "eslint --ext .js src test",
     "precommit": "npm run lint"
   },
   "dependencies": {
     "antd": "^3.8.1",
+    "cross-env": "^5.2.0",
     "dva": "^2.4.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
